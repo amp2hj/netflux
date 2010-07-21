@@ -2,5 +2,5 @@
  * [GettingStarted Getting Started]
  * [GUIOverview Overview of GUI]
  * [XLS Formatting the XLS Network File]
- * [Cytoscape Creating a Visual Network with Cytoscape]
+ * [Cytoscape Creating a Visual Network]
  * [Movie Making a Video]

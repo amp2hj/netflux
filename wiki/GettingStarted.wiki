@@ -1,13 +1,45 @@
-#summary One-sentence summary of this page.
+#summary This page helps users get started with Netflux
 
-= Introduction =
+Netflux comes in two flavors: 
+ #MATLAB Independent (for basic users or users without access to MATLAB)
+ #MATLAB Dependent (for advanced users who want control of the environment) 
 
-Add your content here.
+As such, there are two different ways to get started.  Choose the link that best describes you. 
+
+<wiki:toc max_depth="2" />
+
+= MATLAB Independent =
+== Installation == 
+  # Download and extract Netflux32.zip to your desired directory. The contents of this zip file are: 
+   * Documentation
+   * exampleNet.xls – An example Network Excel File
+   * license.txt – license for the program
+   * Cytoscape_vizmapper.props – visual property file for Cytoscape
+  # Download MATLAB Component Runtime 4.11 (file can be found here) 
+  # Double click Netflux_pkg. It will start extraction of several files:  Netflux32.exe
+  # Follow the instructions to install MCR.  
 
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+
+
+= MATLAB Dependent = 
+== Installation ==
+  # Download and extract NetfluxSC.zip to your desired directory. The contents of this zip file are:
+   * Documentation
+   * exampleNet.xls – An example Network Excel File
+   * license.txt – license for the program
+   * Cytoscape_vizmapper.props – visual property file for Cytoscape
+   * NetfluxSource.zip – The main Netflux program
+  # Locate and extract NetfluxSource.zip to the desired directory
+== Using Netflux with MATLAB (Generating a Source Code) == 
+  # Run Netflux.m and when prompted, type in C (or c). 
+  # Input your Excel network file. 
+  # A message on MATLAB will say that NetfluxSourceCode was created; open NetfluxSourceCode.m, make any edits needed, and then run it. 
+  # You have the option to export the data to a data sheet for use in programs such as Cytoscape (www.cytoscape.org). To export the data sheet, uncomment the two lines around line 27 in NetfluxSourceCode.m. 
+   * Note: The data is space delimited
+  # The .sif and [NetworkName]_nodeAttributes.txt files needed for Cytoscape are automatically generated each time NetfluxSourceCode.m is created.  You can turn this off by uncommenting the second-to-last line in xls2Netflux.m located in the +util folder. 
+== Using Netflux in GUI mode == 
+  # Run Netflux.m and when prompted, type in G (or g). 
+  # Input your network Excel file.
+  # The GUI will appear after you have selected your network Excel file.  

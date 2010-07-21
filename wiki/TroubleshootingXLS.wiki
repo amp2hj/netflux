@@ -1,13 +1,21 @@
-#summary One-sentence summary of this page.
+#summary This page addresses common known issues for the XLS Network sheet.
 
 = Introduction =
 
-Add your content here.
+Netflux requires an XLS (Excel) file as an input. This XLS file requires a specific format, and any deviation from this format may result in errors. This page provides solutions to common known issues that may result from an incorrect XLS file. 
 
 
-= Details =
+= Solutions To Common XLS Errors =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Be sure to use the specie ID for the Reaction Rules. 
+  * Files should be saved in .xls format. Preferably, they should be saved as Microsoft Excel 95/5.0.  Files saved as 97-2003 Excel Workbook may or may not read correctly.
+  * Network names (i.e., the Excel file name) cannot have spaces; use underscores instead. 
+  * ‘species’ and ‘reactions’ tabs have to be this exact spelling and case (for v1.0). 
+  * Data has to start on line 3.  
+  * Cannot have both regular and bold font in a cell
+  * UNICODE characters cannot be read
+  * For Input Species, make sure to input ‘=A, not just =A (as this would prompt a function). 
+  * Make sure there are no plots in the sheets. 
+  * For Google Doc Users: After exporting as an Excel file, open up the Worksheet, and save it as a .xls file using another spreadsheet program, such as Microsoft Excel or OpenOffice. 
+   * Reason: Exporting from Google seems to save the data into Unicode, which Netflux does not support.  Saving the file again using another spreadsheet program will remedy this error. 
+  * For OpenOffice Users: Save as any of the .xls file types (Microsoft Excel 95 or Microsoft Excel 5.0 are preferred, or Microsoft Excel 97/2000/XP)

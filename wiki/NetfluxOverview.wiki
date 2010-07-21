@@ -1,3 +1,4 @@
+#sidebar TOCNetflux
 _Overview of Netflux_
 <wiki:toc max_depth="2" />
 

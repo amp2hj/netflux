@@ -2,6 +2,6 @@
  * [GettingStarted Getting Started]
  * [GUIOverview Overview of GUI]
  * [XLS Formatting the XLS Network File]
-  * [TroublshootingXLS Solution to Common XLS Errors]
+  * [TroubleshootingXLS Solution to Common XLS Errors]
  * [Cytoscape Creating a Visual Network]
  * [Movie Making a Video]

@@ -3,12 +3,11 @@ _Overview of Netflux_
 
 = Introduction =
 
-Add your content here.
+Netflux is a tool for analysis of different signaling pathways/networks that do not require any parameter data (such as time constants or species concentrations). Netflux simply requires knowledge of whether species “A” activates or inhibits species “B”, and by how much (the reaction "weight").  A user generated Network XLS (Excel) spreadsheet contains all of the species and reaction rules, and the spreadsheet is used as input for Netflux.  Running Netflux will output a specie's fractional activation.
 
 
 == Details ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Netflux comes in two flavors: 
+ #MATLAB Independent (For basic users who do not have access to MATLAB)
+ #MATLAB Dependent (For advanced users who want more control and who have access to MATLAB)

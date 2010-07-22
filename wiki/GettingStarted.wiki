@@ -4,7 +4,7 @@ Netflux comes in two flavors:
  # MATLAB Independent (For users without access to MATLAB)
  # MATLAB Dependent (For users with access to MATLAB) 
 
-As such, there are two different ways to get started.  Choose the link that best describes you. 
+As such, there are two different ways to get started.  Choose the link below that best describes you. 
 
 <wiki:toc max_depth="2" />
 

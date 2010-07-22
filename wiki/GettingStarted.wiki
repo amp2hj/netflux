@@ -35,10 +35,10 @@ As such, there are two different ways to get started.  Choose the link that best
 == Using Netflux with MATLAB (Generating a Source Code) == 
   # Run Netflux.m and when prompted, type in C (or c). 
   # Input your Excel network file. 
-  # A message on MATLAB will say that NetfluxSourceCode was created; open NetfluxSourceCode.m, make any edits needed, and then run it. 
-  # You have the option to export the data to a data sheet for use in programs such as Cytoscape (www.cytoscape.org). To export the data sheet, uncomment the two lines around line 27 in NetfluxSourceCode.m. 
+  # A message on MATLAB will say that !NetfluxSourceCode was created; open !NetfluxSourceCode.m, make any edits needed, and then run it. 
+  # You have the option to export the data to a data sheet for use in programs such as Cytoscape (http://www.cytoscape.org). To export the data sheet, uncomment the two lines around line 27 in !NetfluxSourceCode.m. 
    * Note: The data is space delimited
-  # The .sif and ![NetworkName]_nodeAttributes.txt files needed for Cytoscape are automatically generated each time NetfluxSourceCode.m is created.  You can turn this off by uncommenting the second-to-last line in xls2Netflux.m located in the +util folder. 
+  # The .sif and [NetworkName]!_nodeAttributes.txt files needed for Cytoscape are automatically generated each time !NetfluxSourceCode.m is created.  You can turn this off by uncommenting the second-to-last line in xls2Netflux.m located in the +util folder. 
 == Using Netflux in GUI mode == 
   # Run Netflux.m and when prompted, type in G (or g). 
   # Input your network Excel file.

@@ -16,6 +16,6 @@ Netflux requires an XLS (Excel) file as an input. This XLS file requires a speci
   * UNICODE characters cannot be read
   * For Input Species, make sure to input ‘=A, not just =A (as this would prompt a function). 
   * Make sure there are no plots in the sheets. 
-  * For Google Doc Users: After exporting as an Excel file, open up the Worksheet, and save it as a .xls file using another spreadsheet program, such as Microsoft Excel or OpenOffice. 
+  * For Google Doc Users: After exporting as an Excel file, open up the Worksheet, and save it as a .xls file using another spreadsheet program, such as Microsoft Excel or !OpenOffice. 
    * Reason: Exporting from Google seems to save the data into Unicode, which Netflux does not support.  Saving the file again using another spreadsheet program will remedy this error. 
-  * For OpenOffice Users: Save as any of the .xls file types (Microsoft Excel 95 or Microsoft Excel 5.0 are preferred, or Microsoft Excel 97/2000/XP)
+  * For !OpenOffice Users: Save as any of the .xls file types (Microsoft Excel 95 or Microsoft Excel 5.0 are preferred, or Microsoft Excel 97/2000/XP)

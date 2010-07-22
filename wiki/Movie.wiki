@@ -1,13 +1,41 @@
-#summary One-sentence summary of this page.
+#summary This page instructs users on how to create a video of their Cytoscape network.
+
+<wiki:toc max_depth="1" />
 
 = Introduction =
 
-Add your content here.
+Visualizing a network is an important step to understanding a network. You can create a video of your network with Netflux, Cytoscape, and a free screen capture software called CamStudio.  
 
 
-= Details =
+= Requirements =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Cytoscape, which can be found at http://cytoscape.org/
+  * CamStudio, which can be found at http://camstudio.org/
+
+= How To Create A Video Using CamStudio = 
+
+  # Open Camstudio Recorder found in the CamStudio folder. You will also need to generate a [Cytoscape Cytoscape network using Dynamic Expression], but do not play the Dynamic Expression yet.
+  # Arrange Dynamic Expression and CamStudio in Cytoscape like Figure 12:
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_12.jpg
+
+4. In the CamStudio Window, select the region for recording by selecting 
+
+        Region --> Fixed Region…
+
+Then in the Fixed Region window, click on Select. A pen symbol will appear. Use the pen to select the region you want to record (purple), then click ‘Ok’.
+
+5.  Before recording, you will need to adjust the video options of CamStudio. To do so, go to 
+
+	Options --> Video Options
+
+On the Video Options window, click on Configure, then adjust the Temporal Quality Ratio to 0.7. Exit out of the Configure window, uncheck the Auto Adjust check box, then adjust the settings according to the figure below. These settings provide the best default image quality while maintaining a small data file size. Advanced users may modify these settings to their liking. 
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_13.jpg
+
+Click OK to finish adjusting. 
+
+6. In the CamStudio Window, click the red circle to begin recording.  Then, press the Play button in the Dynamic Expression window to play the video. 
+
+7. Press the blue square to stop recording and save the file to your desired output folder. 
+

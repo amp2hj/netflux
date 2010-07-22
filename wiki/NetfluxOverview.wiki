@@ -9,7 +9,7 @@ Netflux is a tool for analysis of different signaling pathways/networks that do 
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.jpg
 
-== Details ==
+== Netflux for all ==
 
 Netflux comes in two flavors: 
   # MATLAB Independent (For users without access to MATLAB)

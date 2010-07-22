@@ -43,8 +43,20 @@ Browse to the `[NetworkName]_nodeAttributes.txt` file that you should have locat
 
 Browse to the Viz map Properties file named Cytoscape_vizmapper.props located in the NetfluxSC folder.
 
-9. Under Control Panel, select the VizMapper tab, then select QDE network. Also, you will need to select the Hierarchic layout for the network (Figure 8). To do so, go to
+9. Under Control Panel, select the VizMapper tab, then select QDE network. 
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_8.jpg
+
+10. You will also need to select the Hierarchic layout for the network. To do so, go to
+
+                Layout --> yFiles --> Hierarchic
+Your network will now look something like this: 
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_9.jpg
+
+11. At the top of Cytoscape in the toolbar, select Plugins, then select Dynamic Expression (Figure 5). On the Dynamic Expression Window, click on Browse to choose an expression file. The expression file will be the data file  (.txt) that you exported in Step 2. 
 
 
 
- 
+
+

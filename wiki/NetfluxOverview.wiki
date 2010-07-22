@@ -7,7 +7,7 @@ Netflux is a tool for analysis of different signaling pathways/networks that do 
 
 
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.gif
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.jpg
 
 == Details ==
 

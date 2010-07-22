@@ -16,7 +16,7 @@ As such, there are two different ways to get started.  Choose the link that best
    * license.txt – license for the program
    * Cytoscape_vizmapper.props – visual property file for Cytoscape
   # Download MATLAB Component Runtime 4.11 (file can be found [http://people.virginia.edu/~jjs3g/netflux/MCRInstaller_Windows4p11.exe here]) 
-  # Double click Netflux_pkg. It will start extraction of several files:  Netflux32.exe
+  # Double click Netflux_pkg. It will start extraction of Netflux32.exe and execution of MCRInstaller
   # Follow the instructions to install MCR.  
 
 

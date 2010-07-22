@@ -1,13 +1,13 @@
-#summary One-sentence summary of this page.
+#summary This page instructs users on how to create a visual network.
+
+<wiki:toc max_depth="1" />
 
 = Introduction =
 
-Add your content here.
+Visual representation helps immensely in portraying data. Netflux may be used in conjunction with Cytoscape to create a picture of your network. 
 
+= Requirements = 
+  * Cytoscape, which can be found at http://cytoscape.org/
 
-= Details =
+= How To Create A Visual Representation of Your Network Using Cytoscape=
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages

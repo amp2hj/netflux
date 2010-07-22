@@ -11,3 +11,11 @@ Netflux is a tool for analysis of different signaling pathways/networks that do 
 Netflux comes in two flavors: 
   # MATLAB Independent (For users without access to MATLAB)
   # MATLAB Dependent (For users with access to MATLAB) 
+
+== System Requirements ==
+
+  * Windows XP/Vista/7 (32 or 64 bit)
+  * (Optional) MATLAB R2009b or higher (Only if you plan to use the MATLAB Dependent version)
+  * (Optional) MATLAB Component Runtime 4.11 (Only if you plan to use the MATLAB Independent version)
+
+As of 7/22/10, Netflux has not been tested on a Mac or Linux OS. 

@@ -9,7 +9,7 @@ Netflux requires an XLS network file of a certain format. Information is stored 
 The ‘reactions’ sheet stores the reaction rules, reaction parameters and other reaction-specific information. An example is shown in Figure 2. *Reaction ID’s are stored in column B, reaction rules in column C, reaction weights in column D, hill coefficients in column E, and half-maximal effective concentration in column F.*
 
 <wiki:comment>
-Insert Figure 2 here
+http://people.virginia.edu/~std6n/NetfluxWikiPics/Figure_2.jpg
 </wiki:comment>
 
 _Reaction ID’s_- this should be a unique name for the reaction with *no spaces or special symbols*

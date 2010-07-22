@@ -9,5 +9,5 @@ Netflux is a tool for analysis of different signaling pathways/networks that do 
 == Details ==
 
 Netflux comes in two flavors: 
- #MATLAB Independent (For basic users who do not have access to MATLAB)
- #MATLAB Dependent (For advanced users who want more control and who have access to MATLAB)
+  # MATLAB Independent (For users without access to MATLAB)
+  # MATLAB Dependent (For users with access to MATLAB) 

@@ -1,12 +1,21 @@
 #summary This page instructs users on how to create an XLS (Excel) Network file.
-
+<wiki:toc max_depth="1" />
 = Introduction =
 Netflux requires an XLS network file of a certain format. Information is stored in two Excel sheets, ‘reactions’ and ‘species’. To create new networks, it is advised to open ‘exampleNet.xls’, save it to a new filename, and then modify the network appropriately. This will make sure that the correct formatting is used. Note that Netflux does not currently have extensive error handling, and incorrect formatting is likely to crash the program; [TroubleshootingXLS click to see solutions to common XLS errors.] 
 
 
-= Details =
+= Reaction Sheet =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The ‘reactions’ sheet stores the reaction rules, reaction parameters and other reaction-specific information. An example is shown in Figure 2. *Reaction ID’s are stored in column B, reaction rules in column C, reaction weights in column D, hill coefficients in column E, and half-maximal effective concentration in column F.*
+
+<wiki:comment>
+Insert Figure 2 here
+</wiki:comment>
+
+Reaction ID’s- this should be a unique name for the reaction with *no spaces or special symbols*
+Reaction Rules- 
+  * Input reactions: For an input that activates specie ‘A’, use ‘‘= A’.
+  * Simple activation: If specie ‘A’ activates specie ‘B’, use ‘A = B’.
+  * Simple inhibition: If specie ‘A’ inhibits or blocks specie ‘B’, use ‘!A = B’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to activate ‘C’, use ‘A+B = C’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to inhibit ‘C’, use ‘!A + !B = C’. 

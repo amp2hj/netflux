@@ -17,6 +17,7 @@ Visual representation helps immensely in portraying data. Netflux may be used in
   # Download Dynamic Expression at the Cytoscape website. To do this, click on the following link http://chianti.ucsd.edu/cyto_web/plugins/index.php. 
    * On the Cytoscape 2.x Plugins page, select “Analysis” tab to expand it, then select the dynamicXpr plug-in to download it. Below is a picture of the dynamicXpr plug-in.
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_4.jpg
+
 5. After dynamicXpr is downloaded, go to the folder containing the file. Move dynamicXpr to the “plugins” folder in the Cytoscape directory. 
   * When Dynamic Expression is downloaded correctly, you will see the Dynamic Expression command under “Plugins” (Picture below).http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_5.jpg
 Now you will need to import 3 files: a network (.sif), a node attribute (.txt) and a viz map properties (.props) file.
@@ -27,11 +28,14 @@ Now you will need to import 3 files: a network (.sif), a node attribute (.txt) a
 
 Browse to the .sif file that you should have located in Step 1. The file location is where you extracted the contents of !NetfluxSource.zip.  There should now be a network in Cytoscape’s network area (figure below).
 
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_6.jpg
+
 7. To import the node attribute go to 
 
 			File --> Import --> Node Attributes…
 
-Browse to the `[NetworkName]_nodeAttributes.txt` file that you should have located in Step 1. It should be located where you extracted !NetfluxSource.zip and named `[networkname]_nodeAttributes.txt`. To display the node attributes, select the ‘Node Attribute Browser’ in the Data Panel, and then select the icon above the ID column.  Check which attributes you would like to see in the Data Panel (Figure 7). 
+Browse to the `[NetworkName]_nodeAttributes.txt` file that you should have located in Step 1. It should be located where you extracted !NetfluxSource.zip and named `[networkname]_nodeAttributes.txt`. To display the node attributes, select the ‘Node Attribute Browser’ in the Data Panel, and then select the icon ('Select Attributes') above the ID column.  Check which attributes you would like to see in the Data Panel (Figure 7). 
 
 
 

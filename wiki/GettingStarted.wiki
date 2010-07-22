@@ -1,8 +1,8 @@
 #summary This page helps users get started with Netflux
 
 Netflux comes in two flavors: 
- #MATLAB Independent (for basic users or users without access to MATLAB)
- #MATLAB Dependent (for advanced users who want control of the environment) 
+ # MATLAB Independent (For users without access to MATLAB)
+ # MATLAB Dependent (For users with access to MATLAB) 
 
 As such, there are two different ways to get started.  Choose the link that best describes you. 
 
@@ -18,6 +18,11 @@ As such, there are two different ways to get started.  Choose the link that best
   # Download MATLAB Component Runtime 4.11 (file can be found [http://people.virginia.edu/~jjs3g/netflux/MCRInstaller_Windows4p11.exe here]) 
   # Double click Netflux_pkg. It will start extraction of Netflux32.exe and execution of MCRInstaller
   # Follow the instructions to install MCR.  
+== Starting Netflux ==
+  # Double click Netflux32.exe to start the GUI
+  # A dialog box will prompt you for an Excel file that contains your network; input your network Excel file (or exampleNet.xls if you do not have one).
+  # The [GUIOverview#GUI GUI] will appear after you have selected your network Excel file.  
+
 
 
 

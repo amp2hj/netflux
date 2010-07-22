@@ -6,6 +6,9 @@ _Overview of Netflux_
 Netflux is a tool for analysis of different signaling pathways/networks that do not require any parameter data (such as time constants or species concentrations). Netflux simply requires knowledge of whether species “A” activates or inhibits species “B”, and by how much (the reaction "weight").  A user generated Network XLS (Excel) spreadsheet contains all of the species and reaction rules, and the spreadsheet is used as input for Netflux.  Running Netflux will output a specie's fractional activation.
 
 
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.gif
+
 == Details ==
 
 Netflux comes in two flavors: 

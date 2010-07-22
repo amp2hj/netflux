@@ -17,10 +17,11 @@ Visual representation helps immensely in portraying data. Netflux may be used in
   # Download Dynamic Expression at the Cytoscape website. To do this, click on the following link http://chianti.ucsd.edu/cyto_web/plugins/index.php. 
    * On the Cytoscape 2.x Plugins page, select “Analysis” tab to expand it, then select the dynamicXpr plug-in to download it. Below is a picture of the dynamicXpr plug-in.
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_4.jpg
-  # After dynamicXpr is downloaded, go to the folder containing the file. Move dynamicXpr to the “plugins” folder in the Cytoscape directory. 
+  5. After dynamicXpr is downloaded, go to the folder containing the file. Move dynamicXpr to the “plugins” folder in the Cytoscape directory. 
   * When Dynamic Expression is downloaded correctly, you will see the Dynamic Expression command under “Plugins” (Picture below).http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_5.jpg
 Now you will need to import 3 files: a network (.sif), a node attribute (.txt) and a viz map properties (.props) file.
-  # To import the network go to
+
+  6. To import the network go to
 
 	 		File --> Import --> Network (Multiple File Types)...
 

@@ -62,8 +62,11 @@ After selecting the date file, you will have a window like below.
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_10.jpg
 
 Each color represents a specie’s fractional activation. The color map looks like this:
+
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/colormap.jpg
+
 With blue being fully inhibited and red being fully activated.
 
 12. Click the ‘Play’ button on the Dynamic Expression window to start.
+
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_11.jpg

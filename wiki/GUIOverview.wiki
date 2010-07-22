@@ -1,13 +1,8 @@
-#summary One-sentence summary of this page.
+#summary This page describes the function of the Netflux GUI
 
 = Introduction =
 
-Add your content here.
+Netflux provides a simple graphical user interface (GUI) for users to manipulate their network. 
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= GUI =

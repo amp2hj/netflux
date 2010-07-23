@@ -9,6 +9,9 @@ Netflux is a tool for analysis of different signaling pathways/networks that do 
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.jpg
 
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_2.jpg
+
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Netflux2.jpg
 == Netflux for all ==
 
 Netflux comes in two flavors: 

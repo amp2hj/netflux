@@ -12,9 +12,11 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/networkpic.jpg
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_2.jpg
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Netflux2.jpg
-</wiki:comment>
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/flow.jpg
+</wiki:comment>
+http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/flow.gif
+
 == Netflux for all ==
 
 Netflux comes in two flavors: 

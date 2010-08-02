@@ -25,7 +25,7 @@ Netflux comes in two flavors:
 == System Requirements ==
 
   * Windows XP/Vista/7 (32 or 64 bit)
-  * (Optional) MATLAB R2009b or higher (Only if you plan to use the MATLAB Dependent version)
+  * (Optional) MATLAB !R2009b or higher (Only if you plan to use the MATLAB Dependent version)
   * (Optional) MATLAB Component Runtime 4.11 (Only if you plan to use the MATLAB Independent version)
 
 As of 7/22/10, Netflux has not been tested on a Mac or Linux OS. 

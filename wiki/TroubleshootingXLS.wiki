@@ -12,7 +12,7 @@ Netflux requires an XLS (Excel) file as an input. This XLS file requires a speci
   * Network names (i.e., the Excel file name) cannot have spaces; use underscores instead. 
   * ‘species’ and ‘reactions’ tabs have to be this exact spelling and case (for v1.0). 
   * Data has to start on line 3.  
-  * Cannot have both regular and bold font in a cell
+  * *Cannot* have both regular and bold font in *any cell*
   * UNICODE characters cannot be read
   * For Input Species, make sure to input ‘=A, not just =A (as this would prompt a function). 
   * Make sure there are no plots in the sheets. 

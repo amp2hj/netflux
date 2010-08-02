@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The input to Netflux is a user generated Excel (XLS) file that defines species and reactions in their network. What if the user does not have access to Microsoft Excel? There are free alternatives to Excel, such as !OpenOffice, that are compatible with Netflux as long as the following settings are followed.
+The input to Netflux is a user generated Excel (XLS) file that defines the species and reactions in their network. What if the user does not have access to Microsoft Excel? There are free alternatives to Excel, such as !OpenOffice, that are compatible with Netflux as long as the following settings are followed.
 
   * Make sure the spreadsheet adheres to the rules for [XLS formatting an XLS file].
   * For !OpenOffice Users: Save as any of the .xls file types (Microsoft Excel 95 or Microsoft Excel 5.0 are preferred, or Microsoft Excel 97/2000/XP)

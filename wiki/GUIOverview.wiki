@@ -27,10 +27,9 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_1.jpg
   # _*Copy Plot_* – A separate figure box will pop up showing just the graph. To copy the graph, go to Edit --> Copy Figure. Alternatively, you can save the graph by going to File --> Save As… 
    * NOTE: Legend does not currently copy due to constraints of the GUI used. 
   # _*Export Data_* – Exports the data for each species at one-second intervals into a text file for use in programs such as Cytoscape (http://www.cytoscape.org/). 
-   * Note a: the data are space delimited. 
-   * Note b: Cannot actually specify where to save, only the name
-  # _*Export Cytoscape Network_* – Exports the data for each species into _yournetworkmodel.sif_ and _yournetworkmodel_nodeAttributes.txt_ for use in Cytoscape. 
-   * Note: Cannot actually specify where to save, only the name 
+   * Note a: the data are space delimited.    
+  # _*Export Cytoscape Network_* – Exports the data for each species into _yournetworkmodel.sif_ and _yournetworkmodel_nodeAttributes.txt_ for use in Cytoscape.
+  # _*Export ODE List_* - Exports the ODE list  
   # _*Species List_*  - A drop down menu for you to select which species to alter
   # _*Tau_* – A slider bar for you to alter the reaction time constant parameter of your selected species
   # _*Ymax_* – A slider bar for you to alter the ‘ymax’ parameter of your selected species

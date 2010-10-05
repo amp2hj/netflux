@@ -6,3 +6,4 @@
   * [AlternativeXLS Alternatives to Microsoft Excel]
  * [Cytoscape Creating a Visual Network]
  * [Movie Making a Video]
+ * [Changelog]

@@ -1,0 +1,15 @@
+#summary Changelog for the various versions of Netflux
+
+==v0.02a==
+  * Removed source code
+  * Added new variable, y0 
+  * When exporting data, added an initial value of 0 to make visualization look better
+
+==v0.01a==
+
+  * Changed the dialog save boxes to indicate that you do not need to type in the extension
+  * Changed dialog save box so that you can save where you want to
+  * Added more values to the StatusLabel to indicate to users what is happening
+  * Fixed an error that occurs with the slider bars when you load a new model with parameter values outside the range of the previous model
+  * Added an ODE Export button, where it exports the ODEs used 
+

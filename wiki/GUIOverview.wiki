@@ -7,8 +7,8 @@ Netflux provides a simple graphical user interface (GUI) for users to manipulate
 = Access = 
 
 Users can access the GUI in 2 ways:
-  # Without MATLAB, run Netflux32.exe ([GettingStarted#MATLAB_Independent follow the instructions for 'MATLAB Independent'])
-  # Using MATLAB, run Netflux.m and type in 'G' at the prompt ([GettingStarted#MATLAB_Dependent follow the instructions for 'MATLAB Dependent']) 
+  # Without MATLAB, run Netflux.exe ([GettingStarted#MATLAB_Independent follow the instructions for 'MATLAB Independent'])
+  # Using MATLAB, run Netflux.m ([GettingStarted#MATLAB_Dependent follow the instructions for 'MATLAB Dependent']) 
   
 
 

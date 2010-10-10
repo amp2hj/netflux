@@ -11,8 +11,8 @@ Visual representation helps immensely in portraying data. Netflux may be used in
 
 = How To Create A Visual Representation of Your Network Using Cytoscape=
 
-  # Locate the Cytoscape network (.sif) and nodeAttribute (.txt) files. These files should have been automatically generated after running Netflux.m (look for the status display) and stored in your current directory.  
-  # Also create a data sheet (.txt) by uncommenting the two lines located around Line 27 in !NetfluxSourceCode.m and running it. Text should pop up in the MATLAB command line if the data sheet has been created successfully.   
+  # If you have not done so already, export the Cytoscape network files from the “Export Cytoscape Network” button found on the GUI. Then locate the Cytoscape network (.sif) and nodeAttribute (.txt) files.  
+  # Also if you have not done so already, export the data sheet by clicking on the “Export Data” button, and remember its location.    
   # Open Cytoscape.  In order to animate the simulation, you’ll need to download the Dynamic Expression plug-in.  
   # Download Dynamic Expression at the Cytoscape website. To do this, click on the following link http://chianti.ucsd.edu/cyto_web/plugins/index.php. 
    * On the Cytoscape 2.x Plugins page, select “Analysis” tab to expand it, then select the dynamicXpr plug-in to download it. Below is a picture of the dynamicXpr plug-in.
@@ -26,7 +26,7 @@ Now you will need to import 3 files: a network (.sif), a node attribute (.txt) a
 
 	 		File --> Import --> Network (Multiple File Types)...
 
-Browse to the .sif file that you should have located in Step 1. The file location is where you extracted the contents of !NetfluxSource.zip.  There should now be a network in Cytoscape’s network area (figure below).
+Browse to the .sif file that located in Step 1. There should now be a network in Cytoscape’s network area (figure below).
 
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_6.jpg

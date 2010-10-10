@@ -5,7 +5,7 @@ Current Version: *0.2 alpha*
 
 = Introduction =
 
-Netflux is a modeling and simulation tool of different signaling pathways/networks that do not require any parameter data (such as time constants or species concentrations). Netflux simply requires knowledge of whether species “A” activates or inhibits species “B”, and by how much (the reaction "weight").  A user generated Network XLS (Excel) spreadsheet contains all of the species and reaction rules, and the spreadsheet is used as input for Netflux.  Netflux may be run as either a user-friendly graphical user interface (GUI) or as an advanced command line environment (requires MATLAB).  Regardless of how it is used, running Netflux will output a specie's fractional activation which can then be used for different analyses, such as identifying important nodes of a network, etc. 
+Netflux is a modeling and simulation tool of different signaling pathways/networks that do not require any parameter data (such as time constants or species concentrations). Netflux simply requires knowledge of whether species “A” activates or inhibits species “B”, and by how much (the reaction "weight").  A user generated Network XLS (Excel) spreadsheet contains all of the species and reaction rules, and the spreadsheet is used as input for Netflux.  Running Netflux will create a graphical user interface (GUI) and output a specie's fractional activation, which can then be used for different analyses, such as identifying important nodes of a network, etc. 
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/flow.gif
 

@@ -9,7 +9,7 @@ Netflux is a modeling and simulation tool of different signaling pathways/networ
 
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/flow.gif
 
-== *With Netflux, you can do such things as:* ==
+== *With Netflux, you can:* ==
   * Easily share networks among the scientific community with the [XLS Excel format]
   * Find the roles of feedforward and feedback loops
   * Examine potential crosstalk between species
@@ -18,7 +18,7 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/flow.gif
   * Easily integrate new findings into the model
   * Use other system analyses tools such as quantitative sensitivity analysis, bifurcation analysis, and parameter estimation
 
-== Netflux for all ==
+== Netflux For All ==
 
 Netflux comes in two flavors: 
   # MATLAB Independent (For users without access to MATLAB)

@@ -32,6 +32,7 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_1.jpg
   # _*Export ODE List_* - Exports the ODE list  
   # _*Species List_*  - A drop down menu for you to select which species to alter
   # _*Tau_* – A slider bar for you to alter the reaction time constant parameter of your selected species
+  # _*Yinit_* – A slider bar for you to alter the initial y parameter of your selected species
   # _*Ymax_* – A slider bar for you to alter the ‘ymax’ parameter of your selected species
   # _*Reaction List_* – A drop down menu for you to select which reaction to alter
   # _*Weight_* – A slider bar for you to alter the reaction weight parameter of your selected reaction

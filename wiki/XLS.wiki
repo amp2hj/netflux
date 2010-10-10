@@ -37,7 +37,7 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_3.jpg
 _Species ID_ – Column B is a short unique name for that specie that does not contain any spaces. More specifically, ‘ID’ should be an allowable variable name in MATLAB (most users do not have to worry about conflicting naming conventions). 
 
 _Species Name_ – Column C is the ‘name’ field, which is currently read but has no use in Netflux; treat it as a note to yourself 
-
+_Yinit_ – The initial conditions for your species. The default value is 0. 
 _Ymax_ – The species maximal fractional activation. The default value is 1, but can be changed to reflect changes in protein expression relative to a reference condition^1^. Ymax may be altered when a species is knocked down (Ymax < 1) or overexpressed (Ymax > 1)
 
 _Tau_ – The reaction time constant. The default value is 1.  

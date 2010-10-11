@@ -1,5 +1,9 @@
 #summary Changelog for the various versions of Netflux
 
+==v0.03a==
+  *Removed the GUI's toolbar and menubar
+  *Gave the figure window the name "Netflux"
+
 ==v0.02a==
   * Removed source code
   * Added new variable, y0 
@@ -12,4 +16,3 @@
   * Added more values to the StatusLabel to indicate to users what is happening
   * Fixed an error that occurs with the slider bars when you load a new model with parameter values outside the range of the previous model
   * Added an ODE Export button, where it exports the ODEs used 
-

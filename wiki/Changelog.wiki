@@ -1,8 +1,8 @@
 #summary Changelog for the various versions of Netflux
 
 ==v0.03a==
-  *Removed the GUI's toolbar and menubar
-  *Gave the figure window the name "Netflux"
+  * Removed the GUI's toolbar and menubar
+  * Gave the figure window the name "Netflux"
 
 ==v0.02a==
   * Removed source code

@@ -36,6 +36,7 @@ http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_6.jpg
 			File --> Import --> Node Attributes…
 
 Browse to the `[NetworkName]_nodeAttributes.txt` file that you should have located in Step 1. It should be located where you extracted !NetfluxSource.zip and named `[networkname]_nodeAttributes.txt`. To display the node attributes, select the ‘Node Attribute Browser’ in the Data Panel, and then select the icon ('Select Attributes') above the ID column.  Check which attributes you would like to see in the Data Panel (figure below). 
+
 http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_7.jpg
 
 8. To import the Vizmap properties file go to

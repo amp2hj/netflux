@@ -15,7 +15,7 @@ Users can access the GUI in 2 ways:
 = GUI =
 
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_1.jpg
+http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_1.jpg
 
   # _*Load New Model_* – Push the button to load a new Excel file. Doing so will reset all parameters and graphs. 
   # _*Simulation Time_* – Input the time (in seconds) that you want to simulate your reaction. The time starts from the previous simulation time. For example, if you Simulated the reaction for 10 seconds previously, and Simulated again for 10 seconds, the Graph and Data will show for 20 seconds. “Reset Simulation” in order to start from time zero. 

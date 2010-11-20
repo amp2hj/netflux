@@ -9,7 +9,7 @@ Netflux requires an XLS network file of a certain format. Information is stored 
 The ‘reactions’ sheet stores the reaction rules, reaction parameters and other reaction-specific information. An example is shown in Figure 2. *Reaction ID’s are stored in column B, reaction rules in column C, reaction weights in column D, hill coefficients in column E, and half-maximal effective concentration in column F.*
 
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_2.jpg
+http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_2.jpg
 
 
 _Reaction ID’s_- this should be a unique name for the reaction with *no spaces or special symbols*
@@ -32,7 +32,7 @@ _k_ – this number is the half-maximal effective concentration, which determine
 The ‘species’ sheet defines the list of ‘species’ to be included in the model, along with associated information. The species ID is stored in column B, species name in column C, Ymax in column D, and the time constant in column E. 
 
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_3.jpg
+http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_3.jpg
 
 _Species ID_ – Column B is a short unique name for that specie that does not contain any spaces. More specifically, ‘ID’ should be an allowable variable name in MATLAB (most users do not have to worry about conflicting naming conventions). 
 

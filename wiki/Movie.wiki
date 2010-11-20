@@ -17,7 +17,7 @@ Visualizing a network is an important step to understanding a network. You can c
   # Open Camstudio Recorder found in the !CamStudio folder. You will also need to generate a [Cytoscape Cytoscape network using Dynamic Expression], but do not play the Dynamic Expression yet.
   # Arrange Dynamic Expression and !CamStudio in Cytoscape like Figure 12:
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_12.jpg
+http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_12.jpg
 
 4. In the !CamStudio Window, select the region for recording by selecting 
 
@@ -31,7 +31,7 @@ Then in the Fixed Region window, click on Select. A pen symbol will appear. Use 
 
 On the Video Options window, click on Configure, then adjust the Temporal Quality Ratio to 0.7. Exit out of the Configure window, uncheck the Auto Adjust check box, then adjust the settings according to the figure below. These settings provide the best default image quality while maintaining a small data file size. Advanced users may modify these settings to their liking. 
 
-http://people.virginia.edu/~std6n/netflux/NetfluxWikiPics/Figure_13.jpg
+http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_13.jpg
 
 Click OK to finish adjusting. 
 

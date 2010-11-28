@@ -1,9 +1,9 @@
 #summary Changelog for the various versions of Netflux
 
 ==v0.04a==
-  *Changed the range of ymax from 0 - 2*max(ymax) to -1000 - 1000
-  *Changed k to EC50
-  *Fixed a bug where yinit was not reset after resetting the simulation
+  * Changed the range of ymax from 0 - 2*max(ymax) to -1000 - 1000
+  * Changed k to EC50
+  * Fixed a bug where yinit was not reset after resetting the simulation
 
 ==v0.03a==
   * Removed the GUI's toolbar and menubar

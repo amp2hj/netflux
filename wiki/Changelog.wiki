@@ -1,5 +1,13 @@
 #summary Changelog for the various versions of Netflux
 
+==v0.05a==
+  * Changed the ranges of ymax and yinit to 0-10
+  * Changed the range of tau to 1e-9-100
+  * Changed the range of n to .5-5
+  * Starting Netflux now does not immediately prompt for an XLS file
+  * ExportODE function now exports a full MATLAB-ready file
+  * Added a toolbar for graph interactivity 
+
 ==v0.04a==
   * Changed the range of ymax from 0 - 2*max(ymax) to -1000 - 1000
   * Changed k to EC50

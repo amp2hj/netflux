@@ -1,7 +1,7 @@
 #summary Overview of Netflux
 <wiki:toc max_depth="2" />
 
-Current Version: *0.05 alpha*
+Current Version: *0.06 alpha*
 
 = Introduction =
 

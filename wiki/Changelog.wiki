@@ -1,5 +1,14 @@
 #summary Changelog for the various versions of Netflux
 
+==v0.06a==
+  * Removed everything but the Edit, Zoom In, Zoom Out, Pan, Data Cursor, and Legend from the GUI menu
+  * Copy plot now creates a legend upon copying
+  * A new menu system was created
+  * "Status Text" was changed to "Status"
+  * Dummy Labels 4 and 6 were removed
+  * The default ODE sheet was changed from "ODESheet" to "NetfluxODE"
+  * Added "About" menu
+
 ==v0.05a==
   * Changed the ranges of ymax and yinit to 0-10
   * Changed the range of tau to 1e-9-100

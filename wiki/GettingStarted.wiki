@@ -20,8 +20,8 @@ As such, there are two different ways to get started.  Choose the link below tha
   
 == Starting Netflux ==
   # Double click Netflux.exe to start the GUI
-  # A dialog box will prompt you for an Excel file that contains your network; input your network Excel file (or exampleNet.xls if you do not have one).
-  # The [GUIOverview#GUI GUI] will appear after you have selected your network Excel file.  
+  # In the File menu, select Open Model. A dialog box will prompt you for an Excel file that contains your network; input your network Excel file (or exampleNet.xls if you do not have one).
+  # The [GUIOverview#GUI GUI] Status Text will indicate that your file was loaded successfully. 
 
 
 
@@ -41,5 +41,5 @@ As such, there are two different ways to get started.  Choose the link below tha
   
 == Using Netflux with MATLAB == 
   # Run Netflux.m. 
-  # Input your network Excel file.
-  # The [GUIOverview#GUI GUI] will appear after you have selected your network Excel file.  
+  # In the File menu, select Open Model, then input your network Excel file.
+  # The [GUIOverview#GUI GUI] Status Text will indicate that your file was loaded successfully. 

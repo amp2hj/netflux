@@ -1,5 +1,5 @@
 #summary This page instructs users on how to create an XLS (Excel) Network file.
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 = Introduction =
 Netflux requires an XLS network file of a certain format. Information is stored in two Excel sheets, ‘reactions’ and ‘species’. To create new networks, it is advised to open ‘exampleNet.xls’, save it to a new filename, and then modify the network appropriately. This will make sure that the correct formatting is used. Note that Netflux does not currently have extensive error handling, and incorrect formatting is likely to crash the program; [TroubleshootingXLS click to see solutions to common XLS errors.] 
 

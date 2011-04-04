@@ -15,13 +15,16 @@ http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_2.jpg
 _Reaction ID’s_- this should be a unique name for the reaction with *no spaces or special symbols*
 
 _Reaction Rules_- 
-  * Input reactions: For an input that activates specie ‘A’, use ‘‘= A’.
-  * Simple activation: If specie ‘A’ activates specie ‘B’, use ‘A = B’.
-  * Simple inhibition: If specie ‘A’ inhibits or blocks specie ‘B’, use ‘!A = B’.
-  * Combinations: If species ‘A’ and ‘B’ are both needed to activate ‘C’, use ‘A+B = C’.
-  * Combinations: If species ‘A’ and ‘B’ are both needed to inhibit ‘C’, use ‘!A + !B = C’. 
+  * Input reactions: For an input that activates specie ‘A’, use ‘‘=> A’.
+  * Simple activation: If specie ‘A’ activates specie ‘B’, use ‘A => B’.
+  * Simple inhibition: If specie ‘A’ inhibits or blocks specie ‘B’, use ‘!A => B’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to activate ‘C’, use ‘A & B => C’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to inhibit ‘C’, use ‘!A & !B => C’. 
+  * Self-activation: If species ‘A’ activates itself (i.e., A => A), a temporary species needs to be created. E.g., Reaction 1: A => Atemp; Reaction 2: Atemp => A
+  * Self-inhibition: If species ‘A’ inhibits itself (i.e., !A => A), a temporary species needs to be created. E.g., Reaction 1: A => Atemp; Reaction 2: !Atemp => A
 
-_Weight_ – this is a number between 0 and 1 specifying the maximal activity for that pathway. This is normally set at 1. If you would like to fully inhibit a reaction, set the weight to 0. For input reactions (e.g. = I1), this determines the activity of that input (1 for fully activated, 0 for not activated).
+
+_Weight_ – this is a number between 0 and 1 specifying the maximal activity for that pathway. This is normally set at 1. If you would like to fully inhibit a reaction, set the weight to 0. For input reactions (e.g. => I1), this determines the activity of that input (1 for fully activated, 0 for not activated).
 
 _n_ – this number is the hill coefficient, which characterizes ligand interactions. The default value for this parameter is 2.
 

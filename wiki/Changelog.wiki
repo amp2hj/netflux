@@ -1,5 +1,9 @@
 #summary Changelog for the various versions of Netflux
 
+==v0.07a==
+  * Changed the symbols for "AND" to "&" and "EQUALS" to "=>", respectively. 
+  * Added a note in the documentation on how to create self-activations/inhibitions
+
 ==v0.06a==
   * Removed everything but the Edit, Zoom In, Zoom Out, Pan, Data Cursor, and Legend from the GUI menu
   * Copy plot now creates a legend upon copying

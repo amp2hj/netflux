@@ -1,0 +1,42 @@
+## v0.07a ##
+  * Changed the symbols for "AND" to "&" and "EQUALS" to "=>", respectively.
+  * Added a note in the documentation on how to create self-activations/inhibitions
+
+## v0.06a ##
+  * Removed everything but the Edit, Zoom In, Zoom Out, Pan, Data Cursor, and Legend from the GUI menu
+  * Copy plot now creates a legend upon copying
+  * A new menu system was created
+  * "Status Text" was changed to "Status"
+  * Dummy Labels 4 and 6 were removed
+  * The default ODE sheet was changed from "ODESheet" to "NetfluxODE"
+  * Added "About" menu
+
+## v0.05a ##
+  * Changed the ranges of ymax and yinit to 0-10
+  * Changed the range of tau to 1e-9-100
+  * Changed the range of n to .5-5
+  * Starting Netflux now does not immediately prompt for an XLS file
+  * ExportODE function now exports a full MATLAB-ready file
+  * Added a toolbar for graph interactivity
+
+## v0.04a ##
+  * Changed the range of ymax from 0 - 2\*max(ymax) to -1000 - 1000
+  * Changed k to EC50
+  * Fixed a bug where yinit was not reset after resetting the simulation
+
+## v0.03a ##
+  * Removed the GUI's toolbar and menubar
+  * Gave the figure window the name "Netflux"
+
+## v0.02a ##
+  * Removed source code
+  * Added new variable, y0
+  * When exporting data, added an initial value of 0 to make visualization look better
+
+## v0.01a ##
+
+  * Changed the dialog save boxes to indicate that you do not need to type in the extension
+  * Changed dialog save box so that you can save where you want to
+  * Added more values to the StatusLabel to indicate to users what is happening
+  * Fixed an error that occurs with the slider bars when you load a new model with parameter values outside the range of the previous model
+  * Added an ODE Export button, where it exports the ODEs used

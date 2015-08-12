@@ -1,0 +1,72 @@
+
+
+# Introduction #
+
+Visual representation helps immensely in portraying data. Netflux may be used in conjunction with Cytoscape to create a picture of your network, and how the signal propagates through your network.
+
+# Requirements #
+  * Cytoscape, which can be found at http://cytoscape.org/
+
+# How To Create A Visual Representation of Your Network Using Cytoscape #
+
+  1. If you have not done so already, export the Cytoscape network files from the “Export Cytoscape Network” button found on the GUI. Then locate the Cytoscape network (.sif) and nodeAttribute (.txt) files.
+  1. Also if you have not done so already, export the data sheet by clicking on the “Export Data” button, and remember its location.
+  1. Open Cytoscape.  In order to animate the simulation, you’ll need to download the Dynamic Expression plug-in.
+  1. Download Dynamic Expression at the Cytoscape website. To do this, click on the following link http://chianti.ucsd.edu/cyto_web/plugins/index.php.
+    * On the Cytoscape 2.x Plugins page, select “Analysis” tab to expand it, then select the dynamicXpr plug-in to download it. Below is a picture of the dynamicXpr plug-in.
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_4.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_4.jpg)
+
+5. After dynamicXpr is downloaded, go to the folder containing the file. Move dynamicXpr to the “plugins” folder in the Cytoscape directory.
+  * When Dynamic Expression is downloaded correctly, you will see the Dynamic Expression command under “Plugins” (Picture below).![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_5.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_5.jpg)
+Now you will need to import 3 files: a network (.sif), a node attribute (.txt) and a viz map properties (.props) file.
+
+6. To import the network go to
+
+> File --> Import --> Network (Multiple File Types)...
+
+Browse to the .sif file that located in Step 1. There should now be a network in Cytoscape’s network area (figure below).
+
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_6.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_6.jpg)
+
+7. To import the node attribute go to
+
+> File --> Import --> Node Attributes…
+
+Browse to the `[NetworkName]_nodeAttributes.txt` file that you should have located in Step 1. It should be located where you extracted NetfluxSource.zip and named `[networkname]_nodeAttributes.txt`. To display the node attributes, select the ‘Node Attribute Browser’ in the Data Panel, and then select the icon ('Select Attributes') above the ID column.  Check which attributes you would like to see in the Data Panel (figure below).
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_7.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_7.jpg)
+
+8. To import the Vizmap properties file go to
+
+> File --> Import --> Vizmap Property File…
+
+Browse to the Vizmap Properties file named Cytoscape\_vizmapper.props located in the NetfluxSC folder.
+
+9. Under Control Panel, select the VizMapper tab, then select QDE network.
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_8.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_8.jpg)
+
+10. You will also need to select the Hierarchic layout for the network. To do so, go to
+
+> Layout --> yFiles --> Hierarchic
+Your network will now look something like this:
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_9.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_9.jpg)
+
+11. At the top of Cytoscape in the toolbar, select Plugins, then select Dynamic Expression (Figure 5). On the Dynamic Expression Window, click on Browse to choose an expression file. The expression file will be the data file (.txt) that you exported in Step 2.
+
+After selecting the date file, you will have a window like below.
+
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_10.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_10.jpg)
+
+Each color represents a specie’s fractional activation. The color map looks like this:
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/colormap.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/colormap.jpg)
+
+With blue being fully inhibited and red being fully activated.
+
+12. Click the ‘Play’ button on the Dynamic Expression window to start.
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_11.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_11.jpg)

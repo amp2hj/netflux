@@ -1,0 +1,52 @@
+
+# Introduction #
+Netflux requires an XLS network file of a certain format. Information is stored in two Excel sheets, ‘reactions’ and ‘species’. To create new networks, it is advised to open ‘exampleNet.xls’, save it to a new filename, and then modify the network appropriately. This will make sure that the correct formatting is used. Note that Netflux does not currently have extensive error handling, and incorrect formatting is likely to crash the program; [click to see solutions to common XLS errors.](TroubleshootingXLS.md)
+
+
+# Reactions Sheet #
+
+The ‘reactions’ sheet stores the reaction rules, reaction parameters and other reaction-specific information. An example is shown in Figure 2. **Reaction ID’s are stored in column B, reaction rules in column C, reaction weights in column D, hill coefficients in column E, and half-maximal effective concentration in column F.**
+
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_2.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_2.jpg)
+
+
+_Reaction ID’s_- this should be a unique name for the reaction with **no spaces or special symbols**
+
+_Reaction Rules_-
+  * Input reactions: For an input that activates specie ‘A’, use ‘‘=> A’.
+  * Simple activation: If specie ‘A’ activates specie ‘B’, use ‘A => B’.
+  * Simple inhibition: If specie ‘A’ inhibits or blocks specie ‘B’, use ‘!A => B’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to activate ‘C’, use ‘A & B => C’.
+  * Combinations: If species ‘A’ and ‘B’ are both needed to inhibit ‘C’, use ‘!A & !B => C’.
+  * Self-activation: If species ‘A’ activates itself (i.e., A => A), a temporary species needs to be created. E.g., Reaction 1: A => Atemp; Reaction 2: Atemp => A
+  * Self-inhibition: If species ‘A’ inhibits itself (i.e., !A => A), a temporary species needs to be created. E.g., Reaction 1: A => Atemp; Reaction 2: !Atemp => A
+
+
+_Weight_ – this is a number between 0 and 1 specifying the maximal activity for that pathway. This is normally set at 1. If you would like to fully inhibit a reaction, set the weight to 0. For input reactions (e.g. => I1), this determines the activity of that input (1 for fully activated, 0 for not activated).
+
+_n_ – this number is the hill coefficient, which characterizes ligand interactions. The default value for this parameter is 2.
+
+_k_ – this number is the half-maximal effective concentration, which determines at what fraction of the input species would induce half-maximal activation of an output species. The default value for this parameter is 0.5.
+
+# Species Sheet #
+
+The ‘species’ sheet defines the list of ‘species’ to be included in the model, along with associated information. The species ID is stored in column B, species name in column C, Ymax in column D, and the time constant in column E.
+
+
+![http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_3.jpg](http://people.virginia.edu/~jjs3g/netflux/NetfluxWikiPics/Figure_3.jpg)
+
+_Species ID_ – Column B is a short unique name for that specie that does not contain any spaces. More specifically, ‘ID’ should be an allowable variable name in MATLAB (most users do not have to worry about conflicting naming conventions).
+
+_Species Name_ – Column C is the ‘name’ field, which is currently read but has no use in Netflux; treat it as a note to yourself
+
+_Yinit_ – The initial conditions for your species. The default value is 0.
+
+_Ymax_ – The species maximal fractional activation. The default value is 1, but can be changed to reflect changes in protein expression relative to a reference condition<sup>1</sup>.
+Ymax may be altered when a species is knocked down (Ymax < 1) or overexpressed (Ymax > 1)
+
+_Tau_ – The reaction time constant. The default value is 1.
+
+# Solutions to Common XLS Errors #
+
+[Click here for solutions to common XLS errors.](TroubleshootingXLS.md)
